@@ -4,7 +4,7 @@
 #
 Name     : portend
 Version  : 2.2
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/51/8a/b283d250525e797dbc70f923f1e841c52fd9fd3d97aa4cc3637ec4701150/portend-2.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/51/8a/b283d250525e797dbc70f923f1e841c52fd9fd3d97aa4cc3637ec4701150/portend-2.2.tar.gz
 Summary  : TCP port monitoring utilities
@@ -12,8 +12,7 @@ Group    : Development/Tools
 License  : MIT
 Requires: portend-python3
 Requires: portend-python
-Requires: Sphinx
-Requires: pytest
+Requires: tempora
 BuildRequires : pbr
 BuildRequires : pip
 BuildRequires : pluggy
@@ -57,7 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1525890098
+export SOURCE_DATE_EPOCH=1528566534
 python3 setup.py build -b py3
 
 %install
