@@ -4,7 +4,7 @@
 #
 Name     : portend
 Version  : 2.4
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/17/80/57ab4b39a6538734d975a823818657c61ad20a728377a430f54b7d3e40aa/portend-2.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/17/80/57ab4b39a6538734d975a823818657c61ad20a728377a430f54b7d3e40aa/portend-2.4.tar.gz
 Summary  : TCP port monitoring and discovery
