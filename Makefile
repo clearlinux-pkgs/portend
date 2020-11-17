@@ -1,5 +1,5 @@
 PKG_NAME := portend
-URL = https://files.pythonhosted.org/packages/04/98/997f8668b11292f13d3e69fc626232c497228306c764523c5a3a3b59c775/portend-2.6.tar.gz
+URL = https://files.pythonhosted.org/packages/c3/68/891f7e77cdee7a14a6bb5c28aa558067843e97aeb8f10d5c5e454acb54e4/portend-2.7.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
